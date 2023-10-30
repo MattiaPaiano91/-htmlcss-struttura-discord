@@ -7,7 +7,7 @@
 
 /* debug */
 
-
+/* header */
 .header-box{
     background-color:aquamarine ;
     display: flex;
@@ -20,7 +20,7 @@
     display: flex;
     width: 80%;
     background-color: orange;
-    height: 75%;
+    height: 60%;
     
 }
 
@@ -29,6 +29,7 @@
     border: 1px dashed black;
     align-items: center;
     display: flex;
+    padding: 5px;
 }
 .header-central-icons{
     width: 50%;
@@ -44,4 +45,22 @@
     align-items: center;
 }
 
+/* fine header */
+ 
+/* inizio main */
+.blue-box{
+    width: 100%;
+    background-color: blue;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pink-box{
+    width: 50%;
+    background-color: pink;
+    min-height:300px ;
+    border: 1px dashed black;
+}
 
