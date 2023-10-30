@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* debug */
+
+
+.header-box{
+    background-color:aquamarine ;
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+}
+
+.nav-bar{
+    display: flex;
+    width: 80%;
+    background-color: orange;
+    height: 75%;
+    
+}
+
+.header-icons{
+    width: 25%;
+    border: 1px dashed black;
+    align-items: center;
+    display: flex;
+}
+.header-central-icons{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    border: 1px dashed black;
+    align-items: center;
+}    
+
+.login{
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
+}
+
+
